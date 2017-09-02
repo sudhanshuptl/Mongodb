@@ -1,0 +1,18 @@
+mail databse: userdb 
+
+# import notes : 
+have [between all json records records 
+then : mongoimport --db userdb --collection userdb  --file Email_databse.jason 
+
+# create index
+db.userdb.createIndex( { "email": 1 }, { unique: true , sparse: true} )
+
+# most used email domain
+gmail.com
+outlook.com
+hotmail.com
+live.com
+yahoo.com
+yahoo.in
+
+
