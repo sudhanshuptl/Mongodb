@@ -1,2 +1,4 @@
-This is a Ipython Notebook Document
-So you can open it using Ipython & it will help you with Quickstart to mongodb
+# Index 
+
+* **Chapter_1** :  Basics and Insert,update, projection
+* **Chapter_2** :        
